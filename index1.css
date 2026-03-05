@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    line-height:1.6;
+}
+
+/* Header */
+
+header{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+/* Navigation */
+
+nav{
+    background:#555;
+    text-align:center;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Sections */
+
+section{
+    padding:40px;
+    background:white;
+    margin:20px;
+    border-radius:10px;
+}
+
+/* Skills */
+
+.skill{
+    margin-bottom:15px;
+}
+
+.bar{
+    width:100%;
+    background:#ddd;
+    height:10px;
+    border-radius:5px;
+}
+
+.bar div{
+    height:10px;
+    border-radius:5px;
+}
+
+.html{
+    width:90%;
+    background:#e34c26;
+}
+
+.css{
+    width:80%;
+    background:#264de4;
+}
+
+.python{
+    width:85%;
+    background:#3776ab;
+}
+
+.ml{
+    width:75%;
+    background:#ff9800;
+}
+
+/* Projects */
+
+.project{
+    background:#f9f9f9;
+    padding:15px;
+    margin-bottom:10px;
+    border-left:5px solid #333;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    background:#333;
+    color:white;
+    padding:15px;
+}
